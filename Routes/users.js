@@ -32,7 +32,7 @@ app.post('/login', async (req,res) => {
         } else {
             res.header('authorization', getUser.token)
                 .status(200)
-                .send({ok: result, user:user});
+                .send({ok: result, user:user, token:getUser.token });
         }
 
     });
