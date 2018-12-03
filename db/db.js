@@ -2,7 +2,7 @@ const mysql = require('promise-mysql');
 
 const config = {
     host:'localhost',
-    password:'Atleti123@',
+    password:'',
     database:'ilapmx',
     user:'root',
     connectionLimit:10
